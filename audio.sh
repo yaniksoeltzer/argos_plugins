@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 echo "Audio | iconName=starred"
 echo "---"
+set_audio >> /dev/null
 
 set_audio | while read line 
 do
